@@ -1,0 +1,12 @@
+Después de realizar el flujo de compra en la página pude encontrar algunos hallazgos:
+* El sistema debería permitir hacer compras solo a personas que poseen una cuenta en el sistema.
+* El boton de pago debería activarse siempre y cuando existan productos en el carrito.
+* Cuando se presenta el formulario de compras
+    - Los campos que son mandatorios deberían presentar un "*" o algún mensaje espcificando que el campo es obligatorio.
+    - El sistema debería validar la cantidad de caracteres aceptados en cada campo
+* En cuanto a los defectos estéticos, en la vista de la opción "Cart" los márgenes de la tabla donde se describen la lista
+de productos a pagar, no son los ideoneos.
+
+Como conclusión:
+Pese a que se ha realizado una prueba efectiva, es decir, se realizó una prueba positiva del flujo de compra se han encontrado
+ defectos y mejoras que se podrían hacer al sistema.
