@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 t_1=1
 t_2=2
 #Conexion
-#ubicacion donde se encuentra el webdriver
+#path de donde se encuentra el webdriver
 driver = webdriver.Chrome(executable_path="C:\Drivers\chromedriver.exe")
 #pagina web
 driver.get("https://www.demoblaze.com/index.html")
@@ -21,7 +21,7 @@ time.sleep(t_1)
 driver.find_element(By.XPATH,"//a[@href='prod.html?idp_=1'][contains(.,'Samsung galaxy s6')]").click()
 time.sleep(t_1)
 #Agregando el producto
-driver.find_element(By.XPATH,"/html[1]/body[1]/div[5]/div[1]/div[2]/div[2]/div[1]/a[1]").click()
+driver.find_element(By.XPATH,"//a[normalize-space()='Add to cart']").click()
 time.sleep(t_1)
 #Aceptando el producto
 alert = driver.switch_to.alert.accept()
@@ -36,7 +36,7 @@ time.sleep(t_2)
 driver.find_element(By.XPATH,"//a[contains(.,'Iphone 6 32gb')]").click()
 time.sleep(t_1)
 #Agregando el producto
-driver.find_element(By.XPATH,"/html[1]/body[1]/div[5]/div[1]/div[2]/div[2]/div[1]/a[1]").click()
+driver.find_element(By.XPATH,"//a[normalize-space()='Add to cart']").click()
 time.sleep(t_1)
 #Aceptando el producto
 alert = driver.switch_to.alert.accept()
