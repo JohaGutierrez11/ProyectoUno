@@ -6,7 +6,3 @@ Después de realizar el flujo de compra en la página pude encontrar algunos hal
     - El sistema debería validar la cantidad de caracteres aceptados en cada campo
 * En cuanto a los defectos estéticos, en la vista de la opción "Cart" los márgenes de la tabla donde se describen la lista
 de productos a pagar, no son los ideoneos.
-
-Como conclusión:
-Pese a que se ha realizado una prueba efectiva, es decir, se realizó una prueba positiva del flujo de compra se han encontrado
- defectos y mejoras que se podrían hacer al sistema.
